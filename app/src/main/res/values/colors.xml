@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Material Theme colors required by themes.xml -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <!-- Basic Palette -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#F2F2F7</color>
+    <color name="medium_gray">#E5E5EA</color>
+    <color name="dark_gray">#3A3A3C</color>
+
+    <!-- UI Feedback Colors -->
+    <color name="correct_green">#34C759</color>
+    <color name="incorrect_red">#FF3B30</color>
+
+    <!-- Math Theme -->
+    <color name="math_primary">#041A97</color> <!-- Blue -->
+    <color name="math_background">@color/white</color>
+
+    <!-- English Theme -->
+    <color name="english_primary">#041A97</color> <!-- Purple -->
+    <color name="english_background">#FAF5FF</color>
+
+    <!-- Computer Theme -->
+    <color name="computer_primary">#041A97</color> <!-- Green -->
+    <color name="computer_background">#F0FFF3</color>
+
+    <!-- Reasoning Theme -->
+    <color name="reasoning_primary">#041A97</color> <!-- Orange -->
+    <color name="reasoning_background">#FFF8F0</color>
+
+    <!-- Science Theme -->
+    <color name="science_primary">#041A97</color>
+    <color name="science_background">#E3F2FD</color>
+
+    <!-- Web Development Theme -->
+    <color name="web_primary">#041A97</color>
+    <color name="web_background">#FBE9E7</color>
+
+    <!-- Data Analyst Theme -->
+    <color name="data_analyst_primary">#041A97</color>
+    <color name="data_analyst_background">#E8F5E9</color>
+
+    <!-- Data Science Theme -->
+    <color name="data_science_primary">#041A97</color>
+    <color name="data_science_background">#F3E5F5</color>
+
+</resources>

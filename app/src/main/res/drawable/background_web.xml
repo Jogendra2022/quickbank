@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Use the new background color you defined -->
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item
+        android:left="-300dp"
+        android:right="150dp"
+        android:top="50dp"
+        android:bottom="-300dp">
+        <shape android:shape="oval">
+            <!-- Use a transparent version of the new primary color -->
+            <solid android:color="#1A2196F3" />
+        </shape>
+    </item>
+</layer-list>

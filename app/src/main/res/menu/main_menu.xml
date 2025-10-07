@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        This is the item for our logout button.
+        - The id is "logout_button", which is what your Java code needs.
+        - The title is what the user will see.
+        - The icon is the three-dot icon (overflow).
+        - showAsAction="ifRoom" is changed to "never" to ensure it's always in the overflow menu.
+    -->
+    <item
+        android:id="@+id/logout_button"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

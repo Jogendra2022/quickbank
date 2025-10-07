@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "173158294069",
+    "project_id": "quickbank-a3519",
+    "storage_bucket": "quickbank-a3519.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173158294069:android:0ddf5e7037f69ac24ac77c",
+        "android_client_info": {
+          "package_name": "com.reason.quickbank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIK395uY6_V9lMfT7ojCnF_oco0YEYkCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

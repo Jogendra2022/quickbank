@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_category_activity"
+    tools:context=".CategoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.Quickbank.PopupOverlay"/>
+
+    <!-- END: TOOLBAR -->
+
+
+    <Button
+        android:id="@+id/see_scores_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:text="See Your Scores"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:backgroundTint="#041A97" />
+
+
+
+
+    <!-- ScrollView to ensure all content is visible -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@id/see_scores_button"
+        android:clipToPadding="false"
+        android:paddingHorizontal="8dp"
+        android:paddingBottom="16dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:padding="4dp"
+            android:useDefaultMargins="true">  <!-- ADD THESE TWO LINES -->
+
+
+            <!-- Math Card -->
+            <include
+                android:id="@+id/card_math"
+                layout="@layout/category_card_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1" />
+
+            <!-- English Card -->
+            <include
+                android:id="@+id/card_english"
+                layout="@layout/category_card_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1" />
+
+            <!-- Computer Card -->
+            <include
+                android:id="@+id/card_computer"
+                layout="@layout/category_card_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1" />
+
+            <!-- Reasoning Card -->
+            <include
+                android:id="@+id/card_reasoning"
+                layout="@layout/category_card_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1" />
+
+            <include
+                android:id="@+id/card_science"
+                layout="@layout/category_card_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1" />
+
+            <include
+                android:id="@+id/card_web"
+                layout="@layout/category_card_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1" />
+
+            <include
+                android:id="@+id/card_data_analyst"
+                layout="@layout/category_card_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1" />
+
+            <include
+                android:id="@+id/card_data_science"
+                layout="@layout/category_card_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1" />
+
+        </GridLayout>
+    </ScrollView>
+
+</RelativeLayout>
