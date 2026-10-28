@@ -144,3 +144,9 @@ git clone https://github.com/Jogendra2022/quickbank.git
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## 🎥 App Demo Video
+
+Watch the QuickBank Android app demo:
+
+[▶️ Click here to watch the QuickBank Demo Video](https://github.com/Jogendra2022/quickbank/blob/master/Quickbank_demo_video.mp4)
