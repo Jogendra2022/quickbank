@@ -37,6 +37,14 @@
 
 ---
 
+## 🎬 App Demo Video
+
+Watch the 30-second walkthrough video of **QuickBank** showcasing key features (Category Selection, Timed Quiz Engine with real-time feedback, and Score Tracking):
+
+[📹 Click here to view the Demo Video (screenshots/demo_video.mp4)](screenshots/demo_video.mp4)
+
+---
+
 ## 🛠️ Tech Stack & Prerequisites
 
 * **Language:** Java (JDK 11)
