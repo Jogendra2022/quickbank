@@ -71,27 +71,62 @@ quickbank/
 
 ---
 
-## 📦 How to Setup & Run
+## ⚙️ Project Setup & How to Run in Android Studio
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/quickbank.git
-   ```
+Follow these detailed steps to set up and run the **QuickBank** project on your local machine using Android Studio:
 
-2. **Open in Android Studio:**
-   * Open Android Studio and select **Open**.
-   * Choose the `quickbank` project root folder.
+### 1. Prerequisites
+Before getting started, make sure you have installed:
+* **Android Studio** (Flamingo, Giraffe, Iguana, Ladybug, or newer recommended).
+* **JDK 11** or higher (comes bundled with modern Android Studio installations).
+* **Git** installed on your system.
+* An active **Firebase Project** for user authentication.
 
-3. **Configure Firebase:**
-   * Add your `google-services.json` file to the `app/` folder (`quickbank/app/google-services.json`).
-   * Enable **Email/Password** authentication in your Firebase Console.
+---
 
-4. **Build & Run:**
-   * Connect an Android device or launch an Emulator.
-   * Click **Run (Shift + F10)** or build via Gradle:
-     ```bash
-     ./gradlew assembleDebug
-     ```
+### 2. Step-by-Step Setup Guide
+
+#### Step 1: Clone the Repository
+Open your Terminal or PowerShell and run:
+```bash
+git clone https://github.com/Jogendra2022/quickbank.git
+```
+
+#### Step 2: Open Project in Android Studio
+1. Launch **Android Studio**.
+2. Click **Open** (or `File > Open...`).
+3. Navigate to the directory where you cloned `quickbank` and select the root directory.
+4. Click **OK** to open the project.
+
+#### Step 3: Sync Project with Gradle Files
+1. Wait for Android Studio to automatically index the files and download required dependencies.
+2. If prompted, click **Sync Now** in the top bar, or go to `File > Sync Project with Gradle Files`.
+3. Ensure the Gradle build completes successfully without errors in the **Build** window.
+
+#### Step 4: Configure Firebase (Authentication Setup)
+1. Go to the [Firebase Console](https://console.firebase.google.com/).
+2. Create a new Firebase project (or use an existing one).
+3. Register a new **Android App** in your Firebase project with:
+   * **Package Name:** `com.reason.quickbank`
+4. Download the `google-services.json` configuration file.
+5. Move the downloaded `google-services.json` file into the `app/` directory of your project:
+   `quickbank/app/google-services.json`
+6. In the Firebase Console, go to **Build > Authentication > Sign-in method** and enable **Email/Password**.
+
+#### Step 5: Set Up an Android Emulator or Physical Device
+* **Using Virtual Device (Emulator):**
+  1. Open `Tools > Device Manager` in Android Studio.
+  2. Click **Create Device** and select a phone model (e.g. Pixel 7).
+  3. Select a System Image (API Level 24 or higher, e.g., API 34/36) and click **Finish**.
+* **Using Physical Device:**
+  1. Enable **Developer Options** and **USB Debugging** on your Android phone.
+  2. Connect your phone via USB cable and grant USB debugging permission when prompted.
+
+#### Step 6: Run the App
+1. In the top toolbar of Android Studio, select your target device (`emulator` or physical phone).
+2. Ensure the run configuration module is set to **`app`**.
+3. Click the green **Run (▶)** button or press `Shift + F10`.
+4. The app will build, install, and launch automatically on your device!
 
 ---
 
