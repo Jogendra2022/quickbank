@@ -37,11 +37,14 @@
 
 ---
 
-## 🎬 App Demo Video
+## 🎬 App Demo
 
-Watch the 30-second walkthrough video of **QuickBank** showcasing key features (Category Selection, Timed Quiz Engine with real-time feedback, and Score Tracking):
+<p align="center">
+  <img src="screenshots/demo_video.gif" width="300" alt="QuickBank App Demo Walkthrough"/>
+</p>
 
-[📹 Click here to view the Demo Video (screenshots/demo_video.mp4)](screenshots/demo_video.mp4)
+*Watch the 20-second walkthrough showcasing category selection, timed quiz interaction with green/red answer feedback, and score tracking.*  
+*(Full MP4 Video: [screenshots/demo_video.mp4](screenshots/demo_video.mp4))*
 
 ---
 
