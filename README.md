@@ -27,6 +27,16 @@
 
 ---
 
+## 📱 Screenshots
+
+<p align="center">
+  <img src="screenshots/category_screen.png" width="280" alt="Category Dashboard"/>
+  <img src="screenshots/quiz_screen.png" width="280" alt="Quiz Engine Screen"/>
+  <img src="screenshots/scores_screen.png" width="280" alt="Scores Screen"/>
+</p>
+
+---
+
 ## 🛠️ Tech Stack & Prerequisites
 
 * **Language:** Java (JDK 11)
